@@ -1,0 +1,9 @@
+#spring:
+#  application:
+#    name: API-GATEWAY
+#  cloud:
+#    routes:
+#      - id: EMPLOYEE-SERVICE
+#        uri: lb://EMPLOYEE-SERVICE
+#        predicates:
+#          - Path= /employee
